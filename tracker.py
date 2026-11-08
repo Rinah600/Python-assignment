@@ -26,3 +26,7 @@ class ExpenseTracker:
         self.expenses.append(expense)
 
         return expense
+    
+    # Lists all expenses
+    def list_expenses(self):
+        return self.expenses.copy()
