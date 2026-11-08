@@ -18,3 +18,23 @@ class Expense:
         self.payer = payer.strip()
         self.category = category.strip()
 
+    # Convert an expense object into a dictionary
+    def to_dict(self):
+        return {
+            "id": self.expense_id,
+            "description": self.description,
+            "amount": self.amount,
+            "payer": self.payer,
+            "category": self.category
+        }
+
+    # Convert a dictionary back into an expense object
+    @classmethod
+    def from_dict(cls, record):
+        return cls(
+            record["id"],
+            record["description"],
+            record["amount"],
+            record["payer"],
+            record["category"]
+        )
