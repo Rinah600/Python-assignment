@@ -1,6 +1,6 @@
 # Shared Expense Tracker
 
-A Python CLI project for tracking expenses shared equally
+A Python CLI project that implements lists, dictionaries, sets, OOP, loops, tuples for tracking expenses shared equally
 between two people.
 
 ## Planned features

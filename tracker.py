@@ -30,3 +30,12 @@ class ExpenseTracker:
     # Lists all expenses
     def list_expenses(self):
         return self.expenses.copy()
+    
+    # Calculates the total spending
+    def total_spending(self):
+        total = 0
+
+        for expense in self.expenses:
+            total += expense.amount
+
+        return total
