@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "description": "transport",
+    "amount": 100000,
+    "payer": "Maurice",
+    "category": "Transport"
+  },
+  {
+    "id": 2,
+    "description": "6",
+    "amount": 333333,
+    "payer": "Alex",
+    "category": "Other"
+  }
+]
