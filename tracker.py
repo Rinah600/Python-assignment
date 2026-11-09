@@ -1,6 +1,6 @@
 from models import Expense
 class ExpenseTracker:
-
+    # Initialize the expense tracker with participants, categories, and an optional list of expenses    
     def __init__(self, participants, categories, expenses=None): 
         self.participants = participants
         self.categories = categories
@@ -29,7 +29,7 @@ class ExpenseTracker:
     
     # Lists all expenses
     def list_expenses(self):
-        return self.expenses.copy()
+        return self.expenses
     
     # Calculates the total spending
     def total_spending(self):
