@@ -119,7 +119,7 @@ def main():
 
             for expense in expenses:
                 print(
-                    f"#{expense.id} | {expense.description} | "
+                    f"#{expense.expense_id} | {expense.description} | "
                     f"{expense.amount:,} UGX | "
                     f"{expense.payer} | {expense.category}"
                 )
